@@ -505,6 +505,7 @@ unittest { // atom matching
 
 import tree: TreeBody, NodeBody, TreeIndex;
 
+// 9fa3ed63-ac89-568c-a7ae-14be4de461c7
 struct RangeNode {
   mixin NodeBody!();
   string patternName = ""; // pattern name distiguishing this range
@@ -536,10 +537,12 @@ struct RangeNode {
   }
 }
 
+// 9fa3ed63-ac89-568c-a7ae-14be4de461c7
 struct RangeTree {
   mixin TreeBody!RangeNode;
 }
 
+// 565ceed2-a886-5a1c-97d3-85f50321de73
 struct LabeledValue {
   string label;
   string value;
@@ -654,6 +657,7 @@ struct LabeledValue {
   }
 }
 
+// df825834-21e9-5494-beb2-2ee7dbcabdae
 RangeTree buildRangeTree(LV)(PatternSystem patternSystem, LV[] labeledValues, bool closeImplicitly = false) {
   import lib: Stack;
   
@@ -790,6 +794,8 @@ unittest {
 
 //
 
+
+// 31cf8c6d-47ca-5336-be61-b2b487e7fd43
 static if(isVersion!"rangeTreeBuilderMain") {
   import std.stdio : writeln, stdin, stdout, File;
   import std.algorithm : endsWith;
