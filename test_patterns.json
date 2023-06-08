@@ -1,0 +1,7 @@
+[
+  {
+    "conditional": {"name": "Pattern1"},
+    "openers": [["leftParenthesis"]], 
+    "closers": [["rightParenthesis"]]
+  }
+]

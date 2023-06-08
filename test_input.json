@@ -1,0 +1,15 @@
+[
+  {"label": "symbol",             "value": "f"},
+  {"label": "leftParenthesis",    "value": "("},
+  {"label": "whitespaces",        "value": " "},
+  {"label": "symbol",             "value": "x"},
+  {"label": "parameterSeparator", "value": ","},
+  {"label": "whitespaces:",       "value": " "},
+  {"label": "symbol",             "value": "g"},
+  {"label": "leftParenthesis",    "value": "("},
+  ["symbol",             "y"],
+  ["parameterSeparator", ","],
+  ["symbol",             "z"],
+  ["rightParenthesis",   ")"],
+  ["rightParenthesis",   ")"]
+]
